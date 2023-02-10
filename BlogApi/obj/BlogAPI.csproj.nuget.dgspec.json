@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\will\\Desktop\\ZEMOGA\\Backend_API_Blog\\BlogApi\\BlogAPI.csproj": {}
+    "C:\\Users\\ingjd\\OneDrive\\Desktop\\will\\BK\\Backend_API_Blog\\BlogApi\\BlogAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\will\\Desktop\\ZEMOGA\\Backend_API_Blog\\BlogApi\\BlogAPI.csproj": {
+    "C:\\Users\\ingjd\\OneDrive\\Desktop\\will\\BK\\Backend_API_Blog\\BlogApi\\BlogAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\will\\Desktop\\ZEMOGA\\Backend_API_Blog\\BlogApi\\BlogAPI.csproj",
+        "projectUniqueName": "C:\\Users\\ingjd\\OneDrive\\Desktop\\will\\BK\\Backend_API_Blog\\BlogApi\\BlogAPI.csproj",
         "projectName": "BlogAPI",
-        "projectPath": "C:\\Users\\will\\Desktop\\ZEMOGA\\Backend_API_Blog\\BlogApi\\BlogAPI.csproj",
-        "packagesPath": "C:\\Users\\will\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\will\\Desktop\\ZEMOGA\\Backend_API_Blog\\BlogApi\\obj\\",
+        "projectPath": "C:\\Users\\ingjd\\OneDrive\\Desktop\\will\\BK\\Backend_API_Blog\\BlogApi\\BlogAPI.csproj",
+        "packagesPath": "C:\\Users\\ingjd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ingjd\\OneDrive\\Desktop\\will\\BK\\Backend_API_Blog\\BlogApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\will\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ingjd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\will\\Desktop\\ZEMOGA\\Backend_API_Blog\\LibreriaBlog\\LibreriaBlog.csproj": {
-                "projectPath": "C:\\Users\\will\\Desktop\\ZEMOGA\\Backend_API_Blog\\LibreriaBlog\\LibreriaBlog.csproj"
+              "C:\\Users\\ingjd\\OneDrive\\Desktop\\will\\BK\\Backend_API_Blog\\LibreriaBlog\\LibreriaBlog.csproj": {
+                "projectPath": "C:\\Users\\ingjd\\OneDrive\\Desktop\\will\\BK\\Backend_API_Blog\\LibreriaBlog\\LibreriaBlog.csproj"
               },
-              "C:\\Users\\will\\Desktop\\ZEMOGA\\Backend_API_Blog\\ServicioBlog\\ServicioBlog.csproj": {
-                "projectPath": "C:\\Users\\will\\Desktop\\ZEMOGA\\Backend_API_Blog\\ServicioBlog\\ServicioBlog.csproj"
+              "C:\\Users\\ingjd\\OneDrive\\Desktop\\will\\BK\\Backend_API_Blog\\ServicioBlog\\ServicioBlog.csproj": {
+                "projectPath": "C:\\Users\\ingjd\\OneDrive\\Desktop\\will\\BK\\Backend_API_Blog\\ServicioBlog\\ServicioBlog.csproj"
               }
             }
           }
@@ -92,7 +92,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -104,21 +105,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\will\\Desktop\\ZEMOGA\\Backend_API_Blog\\LibreriaBlog\\LibreriaBlog.csproj": {
+    "C:\\Users\\ingjd\\OneDrive\\Desktop\\will\\BK\\Backend_API_Blog\\LibreriaBlog\\LibreriaBlog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\will\\Desktop\\ZEMOGA\\Backend_API_Blog\\LibreriaBlog\\LibreriaBlog.csproj",
+        "projectUniqueName": "C:\\Users\\ingjd\\OneDrive\\Desktop\\will\\BK\\Backend_API_Blog\\LibreriaBlog\\LibreriaBlog.csproj",
         "projectName": "LibreriaBlog",
-        "projectPath": "C:\\Users\\will\\Desktop\\ZEMOGA\\Backend_API_Blog\\LibreriaBlog\\LibreriaBlog.csproj",
-        "packagesPath": "C:\\Users\\will\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\will\\Desktop\\ZEMOGA\\Backend_API_Blog\\LibreriaBlog\\obj\\",
+        "projectPath": "C:\\Users\\ingjd\\OneDrive\\Desktop\\will\\BK\\Backend_API_Blog\\LibreriaBlog\\LibreriaBlog.csproj",
+        "packagesPath": "C:\\Users\\ingjd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ingjd\\OneDrive\\Desktop\\will\\BK\\Backend_API_Blog\\LibreriaBlog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\will\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ingjd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -167,7 +168,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -176,21 +178,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\will\\Desktop\\ZEMOGA\\Backend_API_Blog\\ServicioBlog\\ServicioBlog.csproj": {
+    "C:\\Users\\ingjd\\OneDrive\\Desktop\\will\\BK\\Backend_API_Blog\\ServicioBlog\\ServicioBlog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\will\\Desktop\\ZEMOGA\\Backend_API_Blog\\ServicioBlog\\ServicioBlog.csproj",
+        "projectUniqueName": "C:\\Users\\ingjd\\OneDrive\\Desktop\\will\\BK\\Backend_API_Blog\\ServicioBlog\\ServicioBlog.csproj",
         "projectName": "ServicioBlog",
-        "projectPath": "C:\\Users\\will\\Desktop\\ZEMOGA\\Backend_API_Blog\\ServicioBlog\\ServicioBlog.csproj",
-        "packagesPath": "C:\\Users\\will\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\will\\Desktop\\ZEMOGA\\Backend_API_Blog\\ServicioBlog\\obj\\",
+        "projectPath": "C:\\Users\\ingjd\\OneDrive\\Desktop\\will\\BK\\Backend_API_Blog\\ServicioBlog\\ServicioBlog.csproj",
+        "packagesPath": "C:\\Users\\ingjd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ingjd\\OneDrive\\Desktop\\will\\BK\\Backend_API_Blog\\ServicioBlog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\will\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ingjd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -204,8 +206,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\will\\Desktop\\ZEMOGA\\Backend_API_Blog\\LibreriaBlog\\LibreriaBlog.csproj": {
-                "projectPath": "C:\\Users\\will\\Desktop\\ZEMOGA\\Backend_API_Blog\\LibreriaBlog\\LibreriaBlog.csproj"
+              "C:\\Users\\ingjd\\OneDrive\\Desktop\\will\\BK\\Backend_API_Blog\\LibreriaBlog\\LibreriaBlog.csproj": {
+                "projectPath": "C:\\Users\\ingjd\\OneDrive\\Desktop\\will\\BK\\Backend_API_Blog\\LibreriaBlog\\LibreriaBlog.csproj"
               }
             }
           }
@@ -225,7 +227,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -234,7 +237,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -65,7 +65,7 @@ namespace JwtApp.Controllers
             return NotFound("User not found");
         }
 
-        private string Generate(User user)
+        public string Generate(User user)
         {
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
