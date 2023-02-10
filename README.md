@@ -12,4 +12,6 @@ This project was created with .NET core 3.1
 >
 > In the Project BlogAPI - file appsettings.json modify the line 16, and replace the attribute "MiDB" for your server name
 >
+> Right click on the BlogApi Project and select "Built"
+>
 > Go to the address https://localhost:44381/swagger/index.html
