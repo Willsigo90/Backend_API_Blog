@@ -36,12 +36,6 @@ namespace JwtApp.Controllers
         [HttpPost]
         public IActionResult Login([FromBody] User userLogin)
         {
-            //var user2 = Authenticate(userLogin);
-
-            //var user = _db.User
-            //.Include(u => u.IdRolNavigation)
-            //.FirstOrDefault(m => m.UserName == userLogin.UserName && m.Password == userLogin.Password);
-
             var user = loginServicio.ValidateLogin(userLogin);
 
             if (user != null)
@@ -64,7 +58,7 @@ namespace JwtApp.Controllers
             }
             return NotFound("User not found");
         }
-
+        [ApiExplorerSettings(IgnoreApi = true)]
         public string Generate(User user)
         {
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
@@ -73,9 +67,6 @@ namespace JwtApp.Controllers
             var claims = new[]
             {
                 new Claim(ClaimTypes.Sid, user.IdUser.ToString()),
-                //new Claim(ClaimTypes.Email, user.EmailAddress),
-                //new Claim(ClaimTypes.GivenName, user.GivenName),
-                //new Claim(ClaimTypes.Surname, user.Surname),
                 new Claim(ClaimTypes.Role, user.IdRolNavigation.NameRol),
                  new Claim(ClaimTypes.Name, user.UserName)
             };
@@ -89,18 +80,7 @@ namespace JwtApp.Controllers
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
 
-        //private User Authenticate(User userLogin)
-        //{
-        //    var currentUser = UserConstants.Users.FirstOrDefault(o => o.Username.ToLower() == userLogin.UserName.ToLower() && o.Password == userLogin.Password);
-
-        //    if (currentUser != null)
-        //    {
-        //        return currentUser;
-        //    }
-
-        //    return null;
-        //}
-
+       
         private User GetCurrentUser()
         {
             var identity = HttpContext.User.Identity as ClaimsIdentity;

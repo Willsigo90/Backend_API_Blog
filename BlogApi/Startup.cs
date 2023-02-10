@@ -65,9 +65,9 @@ namespace JwtApp
                     In = ParameterLocation.Header,
                     Scheme = "bearer",
                     Type = SecuritySchemeType.Http,
-                    BearerFormat = "JWT"
+                    BearerFormat = "JWT",
                 });
-
+                options.IgnoreObsoleteActions();
                 options.AddSecurityRequirement(new OpenApiSecurityRequirement
                     {
                         {
